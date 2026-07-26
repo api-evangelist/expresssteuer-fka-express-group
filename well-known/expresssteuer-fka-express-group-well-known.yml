@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: probed
+source: live probes of /.well-known/* on the apis.yml host
+host: https://expresssteuer.de
+notes: >-
+  www.expresssteuer.de 301-redirects to https://expresssteuer.de (a WordPress
+  tax-information site). No /.well-known/ discovery documents are published; every
+  probed path returns 404. Absence recorded as valid data.
+endpoints:
+- path: /.well-known/security.txt
+  status: 404
+  file: null
+- path: /.well-known/openid-configuration
+  status: 404
+  file: null
+- path: /.well-known/oauth-authorization-server
+  status: 404
+  file: null
+- path: /.well-known/api-catalog
+  status: 404
+  file: null
+- path: /.well-known/ai-plugin.json
+  status: 404
+  file: null
+- path: /llms.txt
+  status: 404
+  file: null

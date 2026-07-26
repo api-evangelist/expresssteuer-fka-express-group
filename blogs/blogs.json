@@ -1,0 +1,21 @@
+{
+  "repo": "expresssteuer-fka-express-group",
+  "feeds": [
+    {
+      "source": "https://www.expresssteuer.de/feed/",
+      "feed_url": "https://www.expresssteuer.de/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.expresssteuer.de/",
+      "feed_url": "https://www.expresssteuer.de/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 4,
+  "fetched": "2026-07-25T15:00:33Z"
+}

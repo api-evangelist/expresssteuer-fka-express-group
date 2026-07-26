@@ -1,9 +1,27 @@
 aid: expresssteuer-fka-express-group
 name: ExpressSteuer (fka Express Group)
-description: ExpressSteuer (fka Express Group) is a company surfaced as a portfolio company of insight-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  ExpressSteuer (formerly Express Group) is a German tax-technology company, originally
+  a Hamburg-based fintech backed by Insight Partners that offered an app-based, largely
+  automated income-tax-return (Steuererklärung) service aimed at consumers and employees.
+  The expresssteuer.de domain currently presents a German-language tax-information and
+  guidance website (built on WordPress) covering income tax, self-employment, and everyday
+  financial topics. No public developer program, API, SDK, or /.well-known/ discovery
+  surface is published. This profile was surfaced as a portfolio company of Insight Partners
+  and added to the API Evangelist network as a company lead for enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/expresssteuer-fka-express-group/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://expresssteuer.de/wp-content/uploads/2025/04/expresssteuer-de-fav.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Tax
+- Taxation
+- Fintech
+- Financial Services
+- Germany
+- Tax Filing
+- Consumer
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +47,22 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/expresssteuer-fka-express-group-domain-security.yml
+- type: WellKnown
+  url: well-known/expresssteuer-fka-express-group-well-known.yml
 - type: Website
   url: https://www.expresssteuer.de/
+- type: Blog
+  url: https://expresssteuer.de/blog/
+- type: Support
+  url: https://expresssteuer.de/kontakt/
+- type: PrivacyPolicy
+  url: https://expresssteuer.de/datenschutz/
+- type: Impressum
+  url: https://expresssteuer.de/impressum/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
