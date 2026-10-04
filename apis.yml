@@ -47,7 +47,7 @@ tags:
 - Tax
 - Taxation
 - Fintech
-- Financial-Services
+- Financial Services
 - Germany
 - Tax Filing
 - Consumer
@@ -60,6 +60,7 @@ tags_raw:
 - Germany
 - Tax Filing
 - Consumer
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
